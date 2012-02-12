@@ -1,0 +1,17 @@
+#itemList {
+    border: medium solid #ff0000;
+}
+
+.template {
+    display:none;
+}
+
+.item {
+    margin:30px;
+    border: medium solid #444444;
+}
+
+.name {
+    background-color: #ffeeff;
+    display: inline-block;
+}

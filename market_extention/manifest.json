@@ -1,0 +1,18 @@
+{
+  "name": "マーケット サンプル",
+  "version": "1.0",
+  "description": "がいよう",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://market.android.com/"
+      ],
+      "js": [
+        "jquery-1.7.1.min.js",
+        "sample.js"
+      ]
+    }
+  ],
+  "permissions": [
+  ]
+}

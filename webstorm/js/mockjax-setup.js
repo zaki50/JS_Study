@@ -1,0 +1,22 @@
+mock=true;
+if (mock){
+    $.mockjax({
+        url:"http://twitter.com/statuses/user_timeline/kassy_kz.json",
+        responseText:[
+            {
+                text:"かっしーぽーん",
+                user:{
+                    screen_name:"かっしー",
+                    name:"かっしー"
+                }
+            },
+            {
+                text:"もしもし",
+                user:{
+                    screen_name:"もちもち",
+                    name:"もちもち"
+                }
+            }
+        ]
+    });
+}
